@@ -1,8 +1,9 @@
-//영역 1입니다 문자 아래 버튼 생성하기
+//h1 태그 삭제 
+const h1El = document.getElementById("title");
 
-const btnEl = document.createElement("button");
-//버튼 라벨 설정
-btnEl.textContent="버튼";
-const div1 = document.querySelector(".container");
+//body태그 얻기
 
-div1.appendChild(btnEl);
+const bodyEl = document.querySelector("body");
+
+//body 태그 아래부터 삭제
+bodyEl.removeChild(h1El);
