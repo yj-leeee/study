@@ -43,11 +43,15 @@ li{
     padding-left: 20px;
     padding-bottom: 10px;
 }
+li::marker{
+    color: hsl(14, 45%, 36%);
+}
 .Nut{
     display: flex;
     padding-left: 50px;
 }
-.p1{
+.right{
+    padding-left: 50%;
     color: hsl(14, 45%, 36%);
-    
+    font-weight: 600;
 }
