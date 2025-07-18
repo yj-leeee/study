@@ -46,12 +46,16 @@ li{
 li::marker{
     color: hsl(14, 45%, 36%);
 }
-.Nut{
-    display: flex;
-    padding-left: 50px;
+
+
+table{
+    width: 100%;
+    line-height: 40px;
+}
+td{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
 }
 .right{
-    padding-left: 50%;
-    color: hsl(14, 45%, 36%);
+    color:hsl(14, 45%, 36%);
     font-weight: 600;
 }
